@@ -1,0 +1,39 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO8 dataset (first 8 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco8/
+# Example usage: yolo train data=coco8.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco8  ← downloads here (1 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/manisha/Desktop/yolov8/repo1/yolodata # dataset root dir
+train: /home/manisha/Desktop/yolov8/repo1/yolodata/images/train # train images (relative to 'path') 4 images
+val: /home/manisha/Desktop/yolov8/repo1/yolodata/images/val # val images (relative to 'path') 4 images
+test: /home/manisha/Desktop/yolov8/repo1/yolodata/images/test # test images (optional)
+
+# Classes
+names:
+  0: candle
+  1: cip
+  2: comb
+  3: earser
+  4: fock
+  5: fstick
+  6: hairclip
+  7: key
+  8: knife
+  9: lock
+  10: marker
+  11: mirror
+  12: mouse
+  13: pen
+  14: sharpner
+  15: spoon
+  16: statue
+
+
+
+# Download script/URL (optional)
+#download: https://ultralytics.com/assets/coco8.zip
